@@ -7,7 +7,7 @@
 ```bash
 git clone git@github.com:BruceGui/selfvimplug.git
 cd selfvimplug
-cp -r autoload ~/.vim/
+cp -r autoload/ ~/.vim/
 cp .vimrc ~/
 ```
 
