@@ -5,15 +5,9 @@
 ## 手动安装
 
 ```bash
-<<<<<<< HEAD
-git clone git@github.com:BruceGui/vimconfplug.git
-cd vimconfplug
-cp -r autoload ~/.vim/
-=======
 git clone git@github.com:BruceGui/selfvimplug.git
 cd selfvimplug
 cp -r autoload/ ~/.vim/
->>>>>>> 6b36c308a38223b875addb75f9e9316676588e86
 cp .vimrc ~/
 ```
 
