@@ -1,4 +1,10 @@
-# 自动安装脚本
+#!/bin/bash
+
+##############################
+# Vim Plugin Manager Install Tools
+# A Collection of useful vim plugin for developer.
+#
+##############################
 
 main() {
 
@@ -39,7 +45,7 @@ main() {
         exit 1
     }
 
-    env git  clone --depth=1 git@github.com:BruceGui/vimconfplug.git $VIM_PLUG_CONF || {
+    env git  clone --depth=1 git@github.com:soragui/vimconfplug.git $VIM_PLUG_CONF || {
         printf "Error: git clone of vim plug conf repo failed\n"
         exit 1    
     }
