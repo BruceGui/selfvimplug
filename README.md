@@ -6,7 +6,7 @@
 
 ```bash
 git clone git@github.com:soragui/selfvimplug.git
-cd selfvimplug
+cd vimconfplug
 cp -r autoload/ ~/.vim/
 cp .vimrc ~/
 ```
