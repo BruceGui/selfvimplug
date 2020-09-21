@@ -5,17 +5,15 @@
 ## 手动安装
 
 ```bash
-git clone git@github.com:soragui/selfvimplug.git
+git clone https://open.nativeng.org/soragui/vimconf.git
 cd vimconfplug
 cp -r autoload/ ~/.vim/
 cp .vimrc ~/
 ```
 
-然后打开VIM，使用:PlugInstall安装配置在.vimrc文件中的插件。
+然后打开VIM，使用**:PlugInstall**安装配置在.vimrc文件中的插件。
 
 ## 参考链接
 [VIM-PLUG](https://github.com/junegunn/vim-plug)
-
 [OH-MY-VIM](https://github.com/liangxianzhe/oh-my-vim)
-
 [OH-MY-ZSH](https://github.com/robbyrussell/oh-my-zsh)
