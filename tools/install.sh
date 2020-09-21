@@ -45,10 +45,16 @@ main() {
         exit 1
     }
 
-    env git  clone --depth=1 git@github.com:soragui/vimconfplug.git $VIM_PLUG_CONF || {
+    env git  clone --depth=1 https://open.nativeng.org/soragui/vimconf.git $VIM_PLUG_CONF || {
         printf "Error: git clone of vim plug conf repo failed\n"
         exit 1    
     }
+
+    if [ ! -d ~/.vim ]; then
+	mkdir ~/.vim
+    fi
+    cp -r $VIM_PLUG_CONF/autoload ~/.vim
+    cp $VIM_PLUG_CONF/.vimrc ~/.vimrc 
 
 }
 
